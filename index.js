@@ -21,9 +21,14 @@ function destructivelyRemoveFirstKitten() {
 }
 //passed
 
-//continue from here
 function appendKitten(Broom) {
   var newKittens = ["Broom"];
   newKittens = kittens.concat(newKittens);
   return newKittens;
+}
+//passed
+function prependKitten(Bob) {
+  var newKittens = ["Bob"];
+  newKittens = newKittens.concat(kittens);
+  return kittens;
 }
