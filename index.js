@@ -27,8 +27,8 @@ function appendKitten(Broom) {
   return newKittens;
 }
 //passed
-function prependKitten(Bob) {
-  var newKittens = ["Bob"];
+function prependKitten(Arnold) {
+  var newKittens = ["Arnold"];
   newKittens = newKittens.concat(kittens);
   return kittens;
 }
