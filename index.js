@@ -32,3 +32,8 @@ function prependKitten(Arnold) {
   newKittens = newKittens.concat(kittens);
   return newKittens;
 }
+//passed
+function removeLastKitten() {
+  kittens.slice(-1);
+  return kittens;
+}
